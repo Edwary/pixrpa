@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/BR.Logic">
+  <CompilationType>CSharp</CompilationType>
+  <Description i:nil="true" />
+  <Id>5a70e4e1-3d83-43c0-b2da-6060fe7cbb1e</Id>
+  <Logic z:Id="i2" i:type="ExecutedStep">
+    <Childs>
+      <AbstractStep z:Id="i3" i:type="ExecutedStep">
+        <Childs />
+        <Id>d8846100-4ba0-4a7f-93f3-a37ff6eac7de</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i4">
+            <PropertyName>FilePath</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>@"GetData.pix"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i5">
+            <PropertyName>Parameters</PropertyName>
+            <_dataType>Value</_dataType>
+            <_expression i:nil="true" />
+            <_screenShotBase64 i:nil="true" />
+            <_value xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d7p1:ArrayOfArgumentItem">
+              <d7p1:ArgumentItem z:Id="i6">
+                <d7p1:ArgumentName>chromeContext</d7p1:ArgumentName>
+                <d7p1:Expression>chromeContext</d7p1:Expression>
+                <d7p1:Type i:nil="true" />
+              </d7p1:ArgumentItem>
+            </_value>
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i7">
+            <PropertyName>Timeout</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>30</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text>Obtener datos del APi</Text>
+        <_activityFullName>BR.Core.Base.ExecuteScript</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i8" i:type="ExecutedStep">
+        <Childs />
+        <Id>aeca3ad7-0615-4283-97e7-33341e81a056</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i9">
+            <PropertyName>FilePath</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>@"UpdateData.pix"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i10">
+            <PropertyName>Parameters</PropertyName>
+            <_dataType>Value</_dataType>
+            <_expression i:nil="true" />
+            <_screenShotBase64 i:nil="true" />
+            <_value xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d7p1:ArrayOfArgumentItem">
+              <d7p1:ArgumentItem z:Id="i11">
+                <d7p1:ArgumentName>Driver</d7p1:ArgumentName>
+                <d7p1:Expression>Driver</d7p1:Expression>
+                <d7p1:Type i:nil="true" />
+              </d7p1:ArgumentItem>
+              <d7p1:ArgumentItem z:Id="i12">
+                <d7p1:ArgumentName>Port</d7p1:ArgumentName>
+                <d7p1:Expression>Port</d7p1:Expression>
+                <d7p1:Type i:nil="true" />
+              </d7p1:ArgumentItem>
+              <d7p1:ArgumentItem z:Id="i13">
+                <d7p1:ArgumentName>Server</d7p1:ArgumentName>
+                <d7p1:Expression>Server</d7p1:Expression>
+                <d7p1:Type i:nil="true" />
+              </d7p1:ArgumentItem>
+              <d7p1:ArgumentItem z:Id="i14">
+                <d7p1:ArgumentName>Database</d7p1:ArgumentName>
+                <d7p1:Expression>Database</d7p1:Expression>
+                <d7p1:Type i:nil="true" />
+              </d7p1:ArgumentItem>
+              <d7p1:ArgumentItem z:Id="i15">
+                <d7p1:ArgumentName>Uid</d7p1:ArgumentName>
+                <d7p1:Expression>Uid</d7p1:Expression>
+                <d7p1:Type i:nil="true" />
+              </d7p1:ArgumentItem>
+              <d7p1:ArgumentItem z:Id="i16">
+                <d7p1:ArgumentName>Pwd</d7p1:ArgumentName>
+                <d7p1:Expression>Pwd</d7p1:Expression>
+                <d7p1:Type i:nil="true" />
+              </d7p1:ArgumentItem>
+            </_value>
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i17">
+            <PropertyName>Timeout</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>30</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text>Guardado de Datos en PostgreSQL</Text>
+        <_activityFullName>BR.Core.Base.ExecuteScript</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i18" i:type="ExecutedStep">
+        <Childs />
+        <Id>f1efe7b8-e159-4352-ab33-db4ae766fae2</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i19">
+            <PropertyName>FilePath</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>@"ExportExcel.pix"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i20">
+            <PropertyName>Parameters</PropertyName>
+            <_dataType>Value</_dataType>
+            <_expression i:nil="true" />
+            <_screenShotBase64 i:nil="true" />
+            <_value xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d7p1:ArrayOfArgumentItem">
+              <d7p1:ArgumentItem z:Id="i21">
+                <d7p1:ArgumentName>Driver</d7p1:ArgumentName>
+                <d7p1:Expression>Driver</d7p1:Expression>
+                <d7p1:Type i:nil="true" />
+              </d7p1:ArgumentItem>
+              <d7p1:ArgumentItem z:Id="i22">
+                <d7p1:ArgumentName>Server</d7p1:ArgumentName>
+                <d7p1:Expression>Server</d7p1:Expression>
+                <d7p1:Type i:nil="true" />
+              </d7p1:ArgumentItem>
+              <d7p1:ArgumentItem z:Id="i23">
+                <d7p1:ArgumentName>Port</d7p1:ArgumentName>
+                <d7p1:Expression>Port</d7p1:Expression>
+                <d7p1:Type i:nil="true" />
+              </d7p1:ArgumentItem>
+              <d7p1:ArgumentItem z:Id="i24">
+                <d7p1:ArgumentName>Database</d7p1:ArgumentName>
+                <d7p1:Expression>Database</d7p1:Expression>
+                <d7p1:Type i:nil="true" />
+              </d7p1:ArgumentItem>
+              <d7p1:ArgumentItem z:Id="i25">
+                <d7p1:ArgumentName>Uid</d7p1:ArgumentName>
+                <d7p1:Expression>Uid</d7p1:Expression>
+                <d7p1:Type i:nil="true" />
+              </d7p1:ArgumentItem>
+              <d7p1:ArgumentItem z:Id="i26">
+                <d7p1:ArgumentName>Pwd</d7p1:ArgumentName>
+                <d7p1:Expression>Pwd</d7p1:Expression>
+                <d7p1:Type i:nil="true" />
+              </d7p1:ArgumentItem>
+            </_value>
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text>Exportar Excel</Text>
+        <_activityFullName>BR.Core.Base.ExecuteScript</_activityFullName>
+      </AbstractStep>
+    </Childs>
+    <Id>d85a3773-88d7-447f-b5f9-13e9574cd3de</Id>
+    <Parent i:nil="true" />
+    <PropertyValues />
+    <SelectedOptionId i:nil="true" />
+    <AutoCloseMode>None</AutoCloseMode>
+    <EnableStatus>true</EnableStatus>
+    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+    <RetryCount>-1</RetryCount>
+    <Text></Text>
+    <_activityFullName>BR.Core.Base.Container</_activityFullName>
+  </Logic>
+  <Name>main.pix</Name>
+  <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <Params>
+    <Parameter z:Id="i27">
+      <DefaultValueExpression></DefaultValueExpression>
+      <Description></Description>
+      <Name>chromeContext</Name>
+      <RunnerType>None</RunnerType>
+      <TypeString>Web.Core.WebBrowser</TypeString>
+    </Parameter>
+    <Parameter z:Id="i28">
+      <DefaultValueExpression>"PostgreSQL Unicode(x64)"</DefaultValueExpression>
+      <Description>Driver de conexión de la BD</Description>
+      <Name>Driver</Name>
+      <RunnerType>None</RunnerType>
+      <TypeString>System.String</TypeString>
+    </Parameter>
+    <Parameter z:Id="i29">
+      <DefaultValueExpression>"localhost"</DefaultValueExpression>
+      <Description>Servidor de la BD</Description>
+      <Name>Server</Name>
+      <RunnerType>None</RunnerType>
+      <TypeString>System.String</TypeString>
+    </Parameter>
+    <Parameter z:Id="i30">
+      <DefaultValueExpression>"5432"</DefaultValueExpression>
+      <Description>Puerto de conexión de la bd</Description>
+      <Name>Port</Name>
+      <RunnerType>None</RunnerType>
+      <TypeString>System.String</TypeString>
+    </Parameter>
+    <Parameter z:Id="i31">
+      <DefaultValueExpression>"prixrpa"</DefaultValueExpression>
+      <Description>BaseDedatos de conexion</Description>
+      <Name>Database</Name>
+      <RunnerType>None</RunnerType>
+      <TypeString>System.String</TypeString>
+    </Parameter>
+    <Parameter z:Id="i32">
+      <DefaultValueExpression>"postgres"</DefaultValueExpression>
+      <Description>Contraseña</Description>
+      <Name>Uid</Name>
+      <RunnerType>None</RunnerType>
+      <TypeString>System.String</TypeString>
+    </Parameter>
+    <Parameter z:Id="i33">
+      <DefaultValueExpression>"1234"</DefaultValueExpression>
+      <Description>Usuario</Description>
+      <Name>Pwd</Name>
+      <RunnerType>None</RunnerType>
+      <TypeString>System.String</TypeString>
+    </Parameter>
+  </Params>
+  <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
+    <d2p1:_Build>3</d2p1:_Build>
+    <d2p1:_Major>2</d2p1:_Major>
+    <d2p1:_Minor>27</d2p1:_Minor>
+    <d2p1:_Revision>0</d2p1:_Revision>
+  </PlatformVersion>
+  <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
+  <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params" />
+  <Version i:nil="true" />
+</Script>
